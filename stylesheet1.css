@@ -1,0 +1,56 @@
+﻿
+    margin:5px;
+    padding:5px;
+    box-sizing:border-box;
+body {
+    font-family: Arial: black;
+    display: flex;
+}
+.full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: white;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    justify-content: center;
+    text-align: center;
+
+}
+.left {
+    position: initial;
+    background-color: grey;
+    padding: 20px;
+
+}
+.Name_Full {
+    position: initial;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: grey;
+}
+.right {
+    position: initial;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+{
+    .Image, .Contact, .Skills, .Language, .Awards & Other Certificates, .Title, .Summary, .Experience, .Education, .Porject{margin-bottom: 30px;} 
+}
+.h2 {
+    background-color:grey;
+}
+table, th, td {
+    border: 2.5px solid black;
+    border-collapse: collapse;
+    margin: 4px;
+}
+.Download_Button {
+    margin: 12px;
+}
+.Wrapper {
+    
+}
